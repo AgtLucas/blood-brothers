@@ -37,6 +37,13 @@ module.exports = function (grunt) {
         //         }
         //     }
         // },
+        compass: {
+          dist: {
+            options: {
+              config: 'config.rb'
+            }
+          }
+        },
         makara: {
             files: ['public/templates/**/*.dust'],
             options: {
