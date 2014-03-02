@@ -32,6 +32,8 @@
     "grunt-contrib-requirejs": "^0.4.3",
     "grunt-mocha-cli": "~1.5.0",
     "grunt-copy-to": "0.0.10",
-    "grunt-contrib-compass": "^0.7.2"
+    "grunt-contrib-compass": "^0.7.2",
+    "time-grunt": "^0.2.10",
+    "load-grunt-tasks": "^0.4.0"
   }
 }
