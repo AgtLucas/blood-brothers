@@ -3,6 +3,9 @@
 
 module.exports = function (grunt) {
 
+    // Show elapsed time after tasks run
+    require('time-grunt')(grunt);
+
     grunt.initConfig({
         jshint: {
             files: ['controllers/**/*.js', 'lib/**/*.js', 'models/**/*.js'],
