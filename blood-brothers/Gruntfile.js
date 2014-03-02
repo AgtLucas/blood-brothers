@@ -38,7 +38,7 @@ module.exports = function (grunt) {
         //     }
         // },
         compass: {
-          dist: {
+          build: {
             options: {
               config: 'config.rb'
             }
