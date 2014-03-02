@@ -2,10 +2,10 @@ preferred_syntax = :sass
 
 http_path = ''
 
-css_dir = '../assets/css'
-sass_dir = '../assets/sass'
+css_dir = 'public/css'
+sass_dir = 'public/_sass'
 # images_dir = 'src/images'
-javascripts_dir = '../assets/js'
+javascripts_dir = 'public/js'
 
 relative_assets = false
 line_comments = true
