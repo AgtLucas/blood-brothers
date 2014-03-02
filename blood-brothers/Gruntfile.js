@@ -91,13 +91,6 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.loadNpmTasks('grunt-contrib-less');
-    grunt.loadNpmTasks('grunt-contrib-requirejs');
-    grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.loadNpmTasks('grunt-mocha-cli');
-    grunt.loadNpmTasks('grunt-dustjs');
-    grunt.loadNpmTasks('grunt-copy-to');
     grunt.loadTasks('./node_modules/makara/tasks/');
 
     grunt.registerTask('i18n', ['clean', 'makara', 'dustjs', 'clean:tmp']);
