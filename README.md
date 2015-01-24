@@ -1,3 +1,0 @@
-## Blood Brother
-
-Something is coming over here...
